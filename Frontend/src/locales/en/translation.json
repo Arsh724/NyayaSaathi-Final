@@ -1,0 +1,408 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "paralegalDashboard": "Paralegal Dashboard",
+    "employeeDashboard": "Employee Dashboard",
+    "profile": "Profile",
+    "adminPanel": "Admin Panel",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "legalHelp": "Legal Help",
+    "brand1": "Nyaya",
+    "brand2": "Saathi"
+  },
+  "roles": {
+    "citizen": "Citizen",
+    "employee": "Employee",
+    "paralegal": "Paralegal",
+    "admin": "Admin"
+  },
+  "loginPage": {
+    "title": "Welcome Back!",
+    "subtitle": "Sign in to continue to NyayaSaathi.",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "signInButton": "Sign In",
+    "signingInButton": "Signing In...",
+    "noAccount": "Don't have an account?",
+    "signUpLink": "Sign up",
+    "heroTitle": "Welcome Back",
+    "heroSubtitle": "Continue your legal journey with us"
+  },
+  "registerPage": {
+    "title": "Create an Account",
+    "subtitle": "Join our mission to make justice accessible for all.",
+    "joinTitle": "Join NyayaSaathi",
+    "joinSubtitle": "Empowering every citizen with accessible and fair legal justice.",
+    "selectRole": "Select Your Role",
+    "roleDescriptions": {
+      "citizen": "Access legal help and manage your issues",
+      "employee": "Help citizens with legal processes at kiosks",
+      "paralegal": "Provide legal guidance and support",
+      "admin": "Manage system and oversee operations"
+    },
+    "credentialsTitle": "Account Credentials",
+    "fullNameLabel": "Full Name *",
+    "fullNamePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address *",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "Password *",
+    "passwordPlaceholder": "Min 6 characters",
+    "aadhaarLabel": "Aadhaar Number *",
+    "aadhaarPlaceholder": "12-digit Aadhaar number",
+    "aadhaarError": "Must be 12 digits",
+    "employeeInfoTitle": "Employee Information",
+    "kioskLabel": "Kiosk Assignment *",
+    "kioskSearchPlaceholder": "Search by location, village, or district...",
+    "kioskSelectDefault": "Select a kiosk",
+    "kioskLoading": "Loading kiosks...",
+    "kioskError": "Error loading kiosks",
+    "kioskNone": "No kiosks available",
+    "kioskRetry": "Retry",
+    "departmentLabel": "Department *",
+    "departmentPlaceholder": "Legal Helpdesk",
+    "designationLabel": "Designation *",
+    "designationPlaceholder": "Field Officer",
+    "roleLevelLabel": "Role Level *",
+    "roleLevels": {
+      "staff": "Staff",
+      "manager": "Manager"
+    },
+    "roleLevelDescriptions": {
+      "staff": "Regular employee",
+      "manager": "Team leader"
+    },
+    "paralegalInfoTitle": "Paralegal Information",
+    "phoneLabel": "Phone Number *",
+    "phonePlaceholder": "9876543210",
+    "phoneError": "Must be 10 digits",
+    "expertiseLabel": "Areas of Expertise *",
+    "expertiseAreas": {
+      "aadhaar": "Aadhaar",
+      "pension": "Pension",
+      "land": "Land",
+      "certificates": "Certificates",
+      "fraud": "Fraud",
+      "court": "Court",
+      "welfare": "Welfare"
+    },
+    "expertiseHint": "Select at least one area of expertise.",
+    "submitButton": "Create Account",
+    "submittingButton": "Creating Account...",
+    "alreadyAccount": "Already have an account?",
+    "signInLink": "Sign in"
+  },
+  "dashboardPage": {
+    "welcome": "Welcome back, {{name}}!",
+    "subtitle": "Manage your legal issues and documents.",
+    "activeIssues": "Active Issues",
+    "totalDocuments": "Total Documents",
+    "resolvedIssues": "Resolved Issues",
+    "issuesTitle": "My Legal Issues",
+    "addIssue": "Add Issue",
+    "viewDetails": "View Details",
+    "noIssuesTitle": "No legal issues found",
+    "noIssuesSubtitle": "Click \"Add Issue\" to create your first one.",
+    "documentsTitle": "My Documents",
+    "addDocument": "Add Document",
+    "openFile": "Open File",
+    "noDocumentsTitle": "No documents found",
+    "noDocumentsSubtitle": "Click \"Add Document\" to upload your first one."
+  },
+  "publicHero": {
+    "title": "Welcome to <span class='text-cyan-400'>NyayaSaathi</span>",
+    "subtitle": "Your trusted digital partner for legal guidance and support. We make legal help as easy as talking to a friend.",
+    "getStarted": "Get Started",
+    "login": "Login",
+    "aiAssistant": "AI-Powered Legal Assistant",
+    "secure": "Secure & Private",
+    "trusted": "Trusted by Thousands",
+    "aiPowered": "AI-Powered"
+  },
+  "authHero": {
+    "welcome": "Welcome back,",
+    "subtitle": "Your legal journey continues here. Start a voice query for quick assistance or head to your dashboard to manage all your cases.",
+    "voiceQuery": "Start a Voice Query",
+    "goToDashboard": "Go to Full Dashboard"
+  },
+  "homePage": {
+    "quickActionsTitle": "Quick Actions for {{name}}",
+    "quickActionsSubtitle": "Manage your legal matters efficiently",
+    "viewDashboardTitle": "View Dashboard",
+    "viewDashboardDesc": "See all your legal issues, documents, and track progress",
+    "reportIssueTitle": "Report New Issue",
+    "reportIssueDesc": "Quickly report a new legal issue or problem",
+    "uploadDocTitle": "Upload Document",
+    "uploadDocDesc": "Add important documents to your legal cases",
+    "legalHelpTitle": "Legal Help",
+    "legalHelpDesc": "Get detailed information about Indian laws and procedures",
+    "getStarted": "Get Started",
+    "goToDashboard": "Go to Full Dashboard",
+    "ctaLegalHelpTitle": "Need Legal Help?",
+    "ctaLegalHelpDesc": "Get instant access to comprehensive legal information about Indian laws, procedures, and your rights. No registration required!",
+    "ctaAccessLegalHelp": "Access Legal Help"
+  },
+  "legalHelpPage": {
+    "title": "AI Legal Assistant",
+    "subtitle": "Your 24/7 partner for legal guidance powered by AI.",
+    "welcome": "Welcome to the NyayaSaathi Legal Assistant! How can I help you today? You can ask me about Aadhaar, Land Disputes, Pension Schemes, and more.",
+    "placeholder": "Ask your legal question...",
+    "suggestionTitle": "Or try one of these suggestions:",
+    "suggestions": {
+      "q1": "How do I update my address on my Aadhaar card?",
+      "q2": "What are the steps to resolve a land dispute?",
+      "q3": "Tell me about the widow pension scheme.",
+      "q4": "What should I do if I receive a court summons?"
+    },
+    "thinking": "Thinking..."
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "location": "New Delhi, India",
+    "tagline": "© 2024 NyayaSaathi. All rights reserved. | Government of India Initiative",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "accessibility": "Accessibility"
+  },
+  "addIssueModal": {
+    "title": "Report a New Legal Issue",
+    "issueTypeLabel": "Issue Type *",
+    "selectPlaceholder": "Select an issue type",
+    "descriptionLabel": "Description *",
+    "descriptionPlaceholder": "Describe your issue in detail. You can also use the voice command button.",
+    "fillWithVoice": "Fill with Voice",
+    "listening": "Listening...",
+    "cancel": "Cancel",
+    "submit": "Submit Issue",
+    "submitting": "Submitting..."
+  },
+  "addDocModal": {
+    "title": "Upload New Document",
+    "docTypeLabel": "Document Type *",
+    "docTypePlaceholder": "e.g., Aadhaar Card, Land Deed",
+    "voiceHint": "Say: \"Document type is Aadhaar Card\"",
+    "docFileLabel": "Document File *",
+    "uploadFile": "Upload a file",
+    "dragDrop": "or drag and drop",
+    "fileTypes": "PDF, PNG, JPG up to 10MB",
+    "selectedFile": "Selected: {{fileName}}",
+    "cancel": "Cancel",
+    "upload": "Upload Document",
+    "uploading": "Uploading..."
+  },
+  "assistant": {
+    "title": "Quick Assistant",
+    "welcome": "Hello! How can I assist you with your legal questions?",
+    "placeholder": "Ask a quick question...",
+    "typing": "Typing..."
+  },
+  "issueDetail": {
+    "back": "Back to Dashboard",
+    "edit": "Edit",
+    "delete": "Delete",
+    "status": "Status: {{status}}",
+    "description": "Description",
+    "relatedDocs": "Related Documents",
+    "view": "View",
+    "caseHistory": "Case History",
+    "noHistory": "No history found for this case."
+  },
+  "docDetail": {
+    "back": "Back to Dashboard",
+    "delete": "Delete",
+    "docInfo": "Document Information",
+    "uploaded": "Uploaded",
+    "uploadedBy": "Uploaded by",
+    "userInfo": "User Information",
+    "email": "Email",
+    "relatedIssue": "Related Issue",
+    "fileAccess": "File Access",
+    "fileAccessDesc": "Click to view or download the uploaded file.",
+    "viewDoc": "View Document"
+  },
+  "profile": {
+    "edit": "Edit Profile",
+    "cancel": "Cancel",
+    "accountType": "{{role}} Account",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Add your phone number",
+    "aadhaar": "Aadhaar Number",
+    "aadhaarNote": "Aadhaar number cannot be changed.",
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "changePasswordTitle": "Change Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "updatePassword": "Update Password",
+    "updatingPassword": "Saving..."
+  },
+  "features": {
+    "sectionTitle": "What is Nyaya Saathi?",
+    "title": "AI-Powered Legal Assistant for <span class=\"gradient-text\">Rural India</span>",
+    "subtitle": "We make justice accessible by translating complex paperwork into simple conversations, ensuring no one is left behind due to legal jargon or digital illiteracy.",
+    "pills": {
+      "secure": "Secure & Private",
+      "available": "24/7 Available",
+      "multilang": "Multi-language Support",
+      "ai": "AI-Powered"
+    },
+    "items": {
+      "voice": {
+        "title": "Simple Voice Conversations",
+        "desc": "Helps villagers complete legal and government paperwork through natural Hindi and regional dialects."
+      },
+      "docs": {
+        "title": "Auto-Generates Documents",
+        "desc": "Creates ready-to-submit forms, affidavits, and legal notices based on your conversation."
+      },
+      "issues": {
+        "title": "Solves Common Issues",
+        "desc": "Expertly handles Aadhaar, pension, land disputes, missing certificates, and fraud-related cases."
+      },
+      "human": {
+        "title": "Human Escalation",
+        "desc": "For complex issues, we seamlessly connect you with qualified local paralegals for expert assistance."
+      }
+    }
+  },
+  "about": {
+    "sectionTitle": "The Core Problem",
+    "title": "Bridging the Justice Gap for <span class=\"gradient-text\">900 Million Indians</span>",
+    "subtitle": "Essential legal processes are broken for rural communities. From inaccessible government services to intimidating court procedures, the system is designed for failure.",
+    "problems": {
+      "docs": {
+        "title": "Document & Court Summons Errors",
+        "desc": "Low digital literacy and complex legal language lead to mistakes and missed deadlines."
+      },
+      "welfare": {
+        "title": "Welfare Scheme & Land Gaps",
+        "desc": "Outdated records and middlemen exploitation block access to rightful benefits and property claims."
+      },
+      "access": {
+        "title": "Limited Legal Access",
+        "desc": "Courts are far, lawyers are expensive, and reliable legal aid is often out of reach for many villagers."
+      }
+    }
+  },
+  "whyNow": {
+    "sectionTitle": "Why Now?",
+    "title": "The Perfect Confluence of <span class=\"gradient-text\">Factors</span>",
+    "subtitle": "We are uniquely positioned to deliver AI-powered legal access to 900 million underserved Indians because the technology, infrastructure, and user readiness have finally aligned.",
+    "factors": {
+      "digitalIndia": "Digital India infrastructure is now operational and widespread.",
+      "ai": "Advanced AI models for local languages have matured and are reliable.",
+      "reforms": "Government legal aid reforms are expanding rapidly.",
+      "adoption": "Rural digital adoption and trust in online platforms are at an all-time high."
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "title": "From Conversation to Resolution in <span class=\"gradient-text\">6 Simple Steps</span>",
+    "steps": {
+      "access": {
+        "name": "Access",
+        "desc": "User opens the Nyaya Saathi app or visits a nearby kiosk."
+      },
+      "speak": {
+        "name": "Speak the Problem",
+        "desc": "User explains the issue in Hindi or their local dialect; no legal terms needed."
+      },
+      "ai": {
+        "name": "AI Understands",
+        "desc": "Our AI extracts key information, identifies the issue, and asks clarifying questions."
+      },
+      "generate": {
+        "name": "Auto-Generate Documents",
+        "desc": "The system instantly fills forms and generates affidavits, letters, or certificates."
+      },
+      "guide": {
+        "name": "Guide & Submit",
+        "desc": "We provide clear voice guidance, print necessary forms, and help track the status."
+      },
+      "escalate": {
+        "name": "Human Escalation",
+        "desc": "Complex cases are intelligently routed to our network of local paralegals for expert help."
+      }
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "goHome": "Go Home"
+  },
+  "adminPage": {
+    "title": "Admin Panel",
+    "overview": "Overview",
+    "totalUsers": "Total Users",
+    "totalIssues": "Total Issues",
+    "totalDocuments": "Total Documents",
+    "totalKiosks": "Total Kiosks",
+    "issuesTrend": "Issues Created (Last 30 Days)",
+    "issueTypeDistribution": "Issue Type Distribution",
+    "manageData": "Manage Data",
+    "selectCategory": "Select a category to manage",
+    "categories": {
+      "users": "Users",
+      "admins": "Admins",
+      "employees": "Employees",
+      "paralegals": "Paralegals",
+      "kiosks": "Kiosks",
+      "subscriptions": "Subscriptions",
+      "issues": "Issues",
+      "documents": "Documents",
+      "voiceQueries": "Voice Queries"
+    },
+    "actions": {
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "assign": "Assign Paralegal",
+      "confirmDelete": "Are you sure you want to delete this item?",
+      "deleteSuccess": "Item deleted successfully",
+      "deleteError": "Failed to delete item"
+    },
+    "table": {
+      "loading": "Loading...",
+      "noData": "No data available",
+      "actions": "Actions"
+    }
+  },
+  "paralegalDashboard": {
+    "welcome": "Welcome",
+    "noSpecialization": "No specialization set",
+    "phoneNumber": "Phone",
+    "stats": {
+      "totalCases": "Total Cases",
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "resolved": "Resolved"
+    },
+    "urgentCases": "Urgent Case",
+    "urgentCasesPlural": "Urgent Cases",
+    "requireAttention": "Require Attention",
+    "urgentCasesDesc": "These cases have been pending for more than 7 days.",
+    "assignedCases": "Assigned Cases",
+    "filters": {
+      "all": "All",
+      "pending": "Pending",
+      "inProgress": "In Progress"
+    },
+    "noCasesFound": "No cases found",
+    "recentActivity": "Recent Activity",
+    "noRecentActivity": "No recent activity",
+    "priority": {
+      "high": "high priority",
+      "medium": "medium priority",
+      "low": "low priority"
+    },
+    "accessDenied": "Access Denied",
+    "accessDeniedDesc": "Only paralegals can access this dashboard.",
+    "goToDashboard": "Go to Dashboard"
+  }
+}
